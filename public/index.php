@@ -1,8 +1,12 @@
 <?php
+/**
+ * Главная страница
+ *
+ * Показывает 2 последних рецепта и сообщение об успешном добавлении.
+ */
 $recipes = [];
 
 $filePath = __DIR__ . '/../storage/recipes.txt';
-
 if (file_exists($filePath)) {
     $lines = file($filePath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $lines = array_reverse($lines);

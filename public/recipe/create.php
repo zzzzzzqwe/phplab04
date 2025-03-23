@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Страница добавления рецепта
+ *
+ * Отображает HTML-форму и выводит ошибки из сессии.
+ */
+
 session_start();
 $errors = $_SESSION['errors'] ?? [];
 $formData = $_SESSION['form_data'] ?? [];

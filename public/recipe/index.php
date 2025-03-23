@@ -1,4 +1,9 @@
 <?php
+/**
+ * Страница отображения всех рецептов
+ *
+ * Считывает и отображает все строки из файла storage/recipes.txt
+ */
 $recipes = [];
 
 $filePath = __DIR__ . '/../../storage/recipes.txt';
