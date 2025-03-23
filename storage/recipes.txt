@@ -1,0 +1,2 @@
+{"title":"123","category":"Завтрак","ingredients":"123","description":"123","tags":["Быстро"],"steps":"123","created_at":"2025-03-23 18:45:15"}
+{"title":"asd","category":"Обед","ingredients":"asd","description":"asd","tags":["Без глютена"],"steps":"asd","created_at":"2025-03-23 18:45:20"}
