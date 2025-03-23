@@ -333,5 +333,14 @@ if (file_exists($filePath)) {
     <?php endif; ?>
 </body>
 </html>
-
 ```
+
+Наглядная демонстрация:
+
+Основная страница с 2 последними рецептами:
+
+![image](screenshots/Screenshot_5.png)
+
+Дополнительная страница со всеми добавленными рецептами (подробно):
+
+![image](screenshots/Screenshot_6.png)
