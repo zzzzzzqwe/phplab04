@@ -216,5 +216,18 @@ function saveRecipe(array $recipe): void {
     $json = json_encode($recipe, JSON_UNESCAPED_UNICODE);
     file_put_contents($filePath, $json . PHP_EOL, FILE_APPEND);
 }
-
 ```
+
+Наглядная демонстрация:
+
+Начальная страница:
+
+![image](screenshots/Screenshot_2.png)
+
+Страница с формой:
+
+![image](screenshots/Screenshot_3.png)
+
+Попытка отправить пустую форму:
+
+![image](screenshots/Screenshot_4.png)
